@@ -3,7 +3,7 @@ A data science and machine learning project using supervised and unsupervised mo
 ## Objective
 The objective of this project was to accurately detect attacks within a system of 175,341 network connections. 
 ## Dataset
-The UNSW-NB15 dataset consisted of training and testing sets, alongside an excel sheet providing definitions of each feature. We began the pre-processing step by identifying any numerical or categorical features that stood out, outliers, or null values. Furthermore, the relationship between variables and their correlation to one another was analyzed to locate the most important ones in the study. Upon further analysis, a class imbalance was noted between attacks and normal traffic in the system with attacks measuring at 119,341 and normal traffic measuring at 56,000 connections.
+The UNSW-NB15 dataset consisted of training and testing sets, alongside an excel sheet providing definitions of each feature. We began the pre-processing step by identifying any numerical or categorical features that stood out, outliers, or null values. Furthermore, the relationship between variables and their correlation to one another was analyzed to locate the most important ones in the study. Upon further analysis, a class imbalance was noted between attacks and normal traffic in the system with attacks measuring at 119,341 connections and normal traffic measuring at 56,000 connections.
 ## Methods
 The models used to find anomalies were both supervised and unsupervised. The unsupervised models used were DBSCAN and Isolation Forest while the supervised models used were Random Forest(RF), XGBoost, and Support Vector Machine (SVM). SMOTE was then used on RF to balance the dataset and analyze any differences.
 ## Results
